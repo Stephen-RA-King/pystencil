@@ -8,7 +8,6 @@ from . import ini_config, json_config, logger, toml_config, yaml_config
 
 
 def get_config() -> tuple:
-
     """Return a configuration parameter from one of the configuration files.
 
     Returns
@@ -26,7 +25,6 @@ def get_config() -> tuple:
 
 
 def fizzbuzz(number_range: int) -> list:
-
     """Demonstrate one solution to the FizzBuzz problem.
 
     Return integers 1 to N, but print “Fizz” if an integer is divisible by 3,
@@ -62,7 +60,6 @@ def fizzbuzz(number_range: int) -> list:
 
 
 def fibonacci(number_range: int) -> list:
-
     """series of numbers in which each number is the sum of the two that precede it.
 
     Parameters
